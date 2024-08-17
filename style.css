@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color:aliceblue;
+    height: 500px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
+    box-sizing: border-box;
+
+}
+.brand-logo{
+    background: url(../html/profile1.jpeg);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.brand-title{
+    color: blue;
+    text-align: center;
+}
+.inputs{
+    text-align: left;
+    padding: right;
+
+}
+label,input,button{
+    display: block;
+    border: none;
+}
+label{
+color: blue;
+margin-bottom: 10px;
+
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 10px;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px grey;
+    width: 200px;
+}
